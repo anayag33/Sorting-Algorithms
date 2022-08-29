@@ -37,9 +37,10 @@ void MergeSort (vector<int>& A){
 }
 
 int main(){
-  int data[] = {6, 5, 4, 3, 2, 1};
+  vector<int> data = {6, 5, 4, 3, 2, 1};
   MergeSort(data, 0, 5);
   for (int i = 0; i<6; i++){
     cout << data[i] << endl;
   }
+
 }
